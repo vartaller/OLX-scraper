@@ -17,7 +17,7 @@ Requires only installation of the following modules:
 
 Install the modules with:
 ```bash
-npm install $MODULE
+pip install $MODULE
 ```
 
 ## Usage
