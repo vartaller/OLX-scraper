@@ -22,14 +22,16 @@ pip install $MODULE
 
 ## Usage
 
-Set the following modules parameters:
-- **url** - search page url with all specified filters and sorting type (see an example in the code)
-- **song** - path to the alarm sound
-- **n_last_offers** - number of viewed offers
-- **time_window_new_offers** - time period within which new offers are displayed (in minutes)
-- **time_window_all_offers** - time period within which all offers are displayed (in minutes)
-- **hours_correction** - time zone correction depending on the user's location (in hours)
-- **repeat_delay** - delay between page updates (without code running time) (in seconds)
+All necessary parameters are stored in the **config.ini** file.
+
+Set the following parameters:
+- **OlxSearchPageUrl** - search page url with all specified filters and sorting type (change **%** to **%%** !)
+- **Sound** - path to the alarm sound
+- **LastOffersAmount** - number of viewed offers
+- **TimeWindowNewOffers** - time period within which new offers are displayed (in minutes)
+- **TimeWindowLastOffers** - time period within which all offers are displayed (in minutes)
+- **HoursCorrection** - time zone correction depending on the user's location (in hours)
+- **RepeatDelay** - delay between page updates (without code running time) (in seconds)
 ```python
 # ==== PARAMETERS
 song = "ringtone.wav"
