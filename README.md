@@ -25,7 +25,7 @@ pip install $MODULE
 All necessary parameters are stored in the **config.ini** file.
 
 Set the following parameters:
-- **OlxSearchPageUrl** - search page url with all specified filters and sorting type (change *%* to *%%* !)
+- **OlxSearchPageUrl** - search page url with all specified filters and sorting type (change ***%*** to ***%%*** !)
 - **Sound** - path to the alarm sound
 - **LastOffersAmount** - number of viewed offers
 - **TimeWindowNewOffers** - time period within which new offers are displayed (in minutes)
