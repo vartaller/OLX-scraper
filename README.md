@@ -32,16 +32,7 @@ Set the following parameters:
 - **TimeWindowLastOffers** - time period within which all offers are displayed (in minutes)
 - **HoursCorrection** - time zone correction depending on the user's location (in hours)
 - **RepeatDelay** - delay between page updates (without code running time) (in seconds)
-```python
-# ==== PARAMETERS
-song = "ringtone.wav"
-n_last_offers = 8
-time_window_new_offers = 15
-time_window_all_offers = 120
-hours_correction = 0
-repeat_delay = 20
-# ==== PARAMETERS
-```
+
 ### Just run the code and reap the harvest!
 
 The script runs indefinitely, so to terminate it, just stop the execution.
