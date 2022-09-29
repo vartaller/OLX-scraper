@@ -2,6 +2,8 @@
 
 The code monitors OLX ads and displays new ones.
 
+![alt text](title.png "Title")
+
 ## Installation
 
 Requires only installation of the following modules:
@@ -34,7 +36,7 @@ song = "ringtone.wav"
 n_last_offers = 8
 time_window_new_offers = 15
 time_window_all_offers = 120
-hours_correction = 2
+hours_correction = 0
 repeat_delay = 20
 # ==== PARAMETERS
 ```
